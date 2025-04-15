@@ -60,3 +60,16 @@ deleteall 'students', '1'
 disable 'students'
 drop 'students'
 ```
+
+# FastAPI
+
+- 서버 실행
+```bash
+uvicorn main:app --reload
+```
+
+- Hbase 서버 실행
+```bash
+/hbase-2.5.11/bin/hbase-daemon.sh start thrift
+```
+
